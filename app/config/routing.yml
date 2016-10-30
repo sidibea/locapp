@@ -1,14 +1,14 @@
-loc_app_web:
-    resource: "@LocAppWebBundle/Resources/config/routing.yml"
+locapp_main:
+    resource: "@LocappMainBundle/Resources/config/routing.yml"
     prefix:   /
 
-loc_app_user:
-    resource: "@LocAppUserBundle/Resources/config/routing.yml"
+locapp_users:
+    resource: "@LocappUsersBundle/Resources/config/routing.yml"
     prefix:   /
 
 login:
     path:   /login
-    defaults:  { _controller: LocAppUserBundle:Security:login }
+    defaults:  { _controller: LocappUsersBundle:Security:login }
 
 login_check:
     path:   /login_check

@@ -2,7 +2,7 @@
 
 security:
     encoders:
-        LocApp\UserBundle\Entity\User: sha512
+        Locapp\UsersBundle\Entity\Users: sha512
 
     providers:
         main:

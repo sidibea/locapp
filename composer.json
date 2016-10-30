@@ -12,7 +12,7 @@
         "symfony/symfony": "2.7.*",
         "doctrine/orm": "^2.4.8",
         "doctrine/doctrine-bundle": "~1.4",
-        "symfony/assetic-bundle": "~2.3",
+        "symfony/assetic-bundle": "^2.8",
         "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~4.0",
@@ -20,7 +20,9 @@
         "incenteev/composer-parameter-handler": "~2.0",
       "friendsofsymfony/user-bundle": "dev-master",
       "egeloen/ckeditor-bundle": "^4.0",
-      "knplabs/knp-snappy-bundle": "dev-master"
+      "knplabs/knp-snappy-bundle": "dev-master",
+        "leafo/scssphp": "^0.4.0",
+        "patchwork/jsqueeze": "^2.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3",

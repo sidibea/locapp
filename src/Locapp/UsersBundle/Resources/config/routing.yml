@@ -1,0 +1,3 @@
+locapp_users_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: LocappUsersBundle:Default:index }
