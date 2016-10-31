@@ -83,3 +83,12 @@ knp_snappy:
         options:    []
 
     temporary_folder: %kernel.cache_dir%/snappy
+
+assetic:
+  debug:          '%kernel.debug%'
+  use_controller: '%kernel.debug%'
+  filters:
+    cssrewrite: ~
+    jsqueeze:   ~
+    scssphp:
+      formatter: 'Leafo\ScssPhp\Formatter\Compressed'

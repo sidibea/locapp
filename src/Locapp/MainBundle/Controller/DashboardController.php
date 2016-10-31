@@ -15,6 +15,8 @@ class DashboardController extends Controller {
 
     public function indexAction(){
 
+
+
         return $this->render('LocappMainBundle:Dashboard:index.html.twig');
     }
 
